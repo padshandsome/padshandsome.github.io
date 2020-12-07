@@ -17,14 +17,18 @@ PPG特征提取：
 
 信号特点：易受动作影响，处理时要特别去掉motion artifact。
 
-ECG
+ECG:
+
+[HRV metrics](https://github.com/Aura-healthcare/hrvanalysis/blob/master/LICENSE)
 
 采集途径：手腕、手指
 
 ## 二、信号处理技术：
 # 1. 滤波器
 [Savitzky-Golay filter](https://blog.csdn.net/qq_20823641/article/details/51537461) 窗口越大越平滑。
-普通滤波器：阻带频率计算=预期阻带频率/奈奎斯特频率=预期阻带频率/(采样频率/2)
+
+
+普通滤波器(chebyshev, butterworth ect,.)：阻带频率计算=预期阻带频率/奈奎斯特频率=预期阻带频率/(采样频率/2)
 
 
 ## 三、机器学习
