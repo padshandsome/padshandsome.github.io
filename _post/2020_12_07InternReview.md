@@ -12,6 +12,8 @@ PPG特征提取：
 
 根据Lancet一篇文章进行的PPG处理：
 
+[PPG处理](_post/1607325480(1).png)
+
 
 信号特点：易受动作影响，处理时要特别去掉motion artifact。
 
